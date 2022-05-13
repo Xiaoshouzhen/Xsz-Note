@@ -1,0 +1,433 @@
+/* Sets all the text color to red! */
+/* body {
+    color: red;
+} */
+
+
+
+.block-language-math mjx-container.MathJax, .livePrevPlus mjx-container.MathJax {
+    text-align: left !important;
+}
+
+.block-language-math {
+  position: relative;
+  min-height: 100px;
+}
+
+.block-language-math.min-height-200 {
+  min-height: 200px;
+}
+
+.block-language-math.min-height-300 {
+  min-height: 300px;
+}
+
+.math-pill {
+  height: 3.5px;
+  width: 50%;
+  background-color: var(--background-modifier-border);
+  position: absolute;
+  top: 4px;
+  border-radius: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.math-pill:after{
+  content: "";
+  padding: 0;
+  position: absolute;
+  left: -5px;
+  display: block;
+  width: calc(100% + 10px);
+  height: 12px;
+  top: -5px;
+} 
+
+.math-button-group {
+    margin-right: 21px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
+    margin-top: calc(-20px - calc(var(--font-text-size) - 16px));
+}
+
+.math-button {
+    width: 26px;
+    height: 26px;
+    padding: 5px;
+    display: flex;
+    position: relative;
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+    margin-right: 10px;
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.block-language-math svg{
+    display: block;
+    width: 16px;
+    fill: var(--text-on-accent);
+}
+
+.math-svg-wrapper > svg {
+  height: calc(100% + 500px);
+  width: unset;
+  filter: var(--theme-filter);
+  margin-left: -500px;
+  margin-top: -500px;
+}
+
+.math-svg-wrapper {
+  top: 0;
+  position: absolute;
+  height: calc(100% + 20px);
+  margin-top: -9px;
+  margin-left: -9px;
+}
+
+.markdown-reading-view .math-svg-wrapper {
+  height: 100%;
+}
+
+/* Canvas */
+
+.excalidraw-canvas {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  /* position: absolute; */
+}
+.excalidraw-canvas-wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
+.button-wrapper button {
+  z-index: 1;
+  height: 40px;
+  max-width: 200px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.excalidraw .App-menu_top .buttonList {
+  display: flex;
+}
+
+.excalidraw-wrapper {
+  height: 100%;
+  /* // margin: 50px; */
+  padding: 0;
+  margin: 0;
+  opacity: 1 !important;
+}
+
+.excalidraw {
+  background: #fff0 !important;
+}
+
+:root[dir="ltr"]
+  .excalidraw
+  .layer-ui__wrapper
+  .zen-mode-transition.App-menu_bottom--transition-left {
+  transform: none;
+}
+
+.excalidraw .panelColumn {
+  text-align: left;
+}
+
+.export-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+
+  /* &__checkbox {
+    display: flex;
+  } */
+}
+
+/* Hide UI */
+.App-menu_top.App-menu_top.App-menu_top > * {
+  display: none;
+}
+
+.App-menu_top.App-menu_top.App-menu_top > section {
+  display: block;
+}
+
+.App-menu_top.App-menu_top.App-menu_top > .Stack.Stack_vertical {
+  display: block;
+}
+
+.App-menu_top.App-menu_top.App-menu_top > .Stack.Stack_vertical section {
+  display: none;
+}
+
+.App-menu_top.App-menu_top.App-menu_top > .Stack.Stack_vertical section:not(:first-of-type) {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 8px;
+}
+
+.hidden-color-picker .App-menu_top.App-menu_top.App-menu_top > .Stack.Stack_vertical section:not(:first-of-type) {
+  display: none;
+}
+
+.App-menu_top.App-menu_top.App-menu_top > .Stack.Stack_vertical section:not(:first-of-type) input {
+  height: 30px;
+  caret-color: var(--caret-color);
+}
+
+.App-menu_top.App-menu_top.App-menu_top > .Stack.Stack_vertical section:not(:first-of-type) .popover {
+  display: none;
+}
+
+.App-menu_top.App-menu_top.App-menu_top > .Stack.Stack_vertical section:last-of-type .panelColumn > * {
+  display: none;
+}
+
+.App-menu_top.App-menu_top.App-menu_top > .Stack.Stack_vertical section:last-of-type .panelColumn > div:first-of-type {
+  display: block;
+}
+
+.App-menu_top.App-menu_top.App-menu_top > .Stack.Stack_vertical section:last-of-type .panelColumn > h3:first-of-type {
+  display: block;
+}
+
+.App-bottom-bar.App-bottom-bar.App-bottom-bar, .HintViewer.HintViewer.HintViewer, .App-menu_bottom.App-menu_bottom.App-menu_bottom {
+    display: none ;
+}
+
+/* Hide Buttons */
+.App-toolbar label[title="Insert image — 9"] {
+  display: none;
+}
+.no-diamond .App-toolbar label[title="Diamond — D or 3"] {
+    display: none;
+}
+.no-ellipse .App-toolbar label[title="Ellipse — E or 4"] {
+    display: none;
+}
+.no-line .App-toolbar label[title="Line — P or 6"] {
+    display: none;
+}
+
+.no-select .App-toolbar label[title="Selection — V or 1"] {
+  display: none;
+}
+
+.no-rect .App-toolbar label[title="Rectangle — R or 2"] {
+  display: none;
+}
+
+.no-arrow .App-toolbar label[title="Arrow — A or 5"] {
+  display: none;
+}
+
+.no-pen .App-toolbar label[title="Draw — X or 7"] {
+  display: none;
+}
+
+.no-text .App-toolbar label[title="Text — T or 8"] {
+  display: none;
+}
+
+/* Style UI */
+.App-toolbar-container.App-toolbar-container.App-toolbar-container > * {
+    display: none;
+}
+.App-toolbar-container .Island.App-toolbar {
+    display: block;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+.cm-preview-code-block:hover .App-toolbar-container .Island.App-toolbar, .cm-preview-code-block:hover button, .cm-preview-code-block:hover .math-button,.cm-preview-code-block:hover .math-color-box {
+    opacity: 1 !important;
+}
+
+.App-toolbar .Stack.Stack_horizontal {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--background-modifier-border);
+    border-right: none;
+    background-color: none;
+    padding: 10px;
+    padding-right: 5px;
+    border-radius: 10px 0 0 10px;
+    font-size: 16px;
+    /* position: absolute; */
+    /* right: 0; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+}
+
+.FixedSideContainer.FixedSideContainer_side_top {
+    height: 100%;
+}
+
+.FixedSideContainer.FixedSideContainer_side_top.App-top-bar section, .App-menu_top.App-menu_top.App-menu_top > section {
+    position: absolute;
+    top: calc(50% - 20px);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.excalidraw section {
+    position: absolute;
+    right: 0;
+    background-color: var(--background-primary);
+}
+
+.excalidraw * {
+  caret-color: #000;
+}
+
+/* Color Picker */
+.math-color-swatch {
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 50%;
+  cursor: pointer;
+  filter: var(--theme-filter);
+}
+
+.math-color-box {
+  display: flex;
+  background-color: var(--background-primary);
+  position: absolute;
+  gap: 10px;
+  left: 50%;
+  bottom: -8px;
+  z-index: 2;
+  transform: translateX(-50%);
+  padding: 12px 20px;
+  border-radius: 100px;
+  border: 2px solid var(--background-modifier-border);
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 1%), 1px 1px 5px rgb(0 0 0 / 12%);
+  padding-top: 15px;
+  opacity: 0;
+  transition: bottom 200ms, opacity 300ms;
+}
+
+.math-color-box.minimized:hover {
+  bottom: -50px;
+}
+
+.math-color-box.minimized {
+  bottom: -56px;
+}
+
+.math-color-swatch.selected {
+  cursor: unset;
+}
+
+.math-color-swatch.selected:before {
+  filter: var(--theme-filter);
+  content: " ";
+  border: 1.5px solid var(--background-primary);
+  border-radius: 100px;
+  /* height: 10px; */
+  height: 17px;
+  transform: scale(0.8);
+  display: block;
+}
+
+/* Small UI */
+.small-canvas section{
+    max-width: 60px;
+    transition: max-width 300ms;
+    top: unset !important;
+    bottom: 0;
+    margin-bottom: -25px;
+}
+
+.small-canvas section:hover {
+    max-width: 250px;
+}
+
+.small-canvas section .Stack_horizontal .Stack_horizontal {
+  flex-direction: row;
+}
+
+.small-canvas .App-menu_top.App-menu_top.App-menu_top > .Stack.Stack_vertical section {
+  display: none;
+}
+
+/* Small Math block */
+.small-math-block .math-color-box {
+  bottom: 2px;
+}
+
+.small-math-block .math-color-box.minimized:hover {
+  bottom: -34px;
+}
+
+.small-math-block .math-color-box.minimized {
+  bottom: -40px;
+}
+
+/* Live Preview */
+.livePrevPlusBox {
+  /* border: 2px solid aqua !important; */
+  /* background-color: #ccc; */
+  border-color: var( --icon-fill-color) !important;
+}
+
+.livePrevPlusBox:active {
+  pointer-events: none !important;
+}
+
+.livePrevPlusBox .edit-block-button {
+  display: none !important;
+}
+
+.livePrevPlusBox .livePrevPlus.livePrevPlus mjx-container {
+  margin-top: 0;
+  margin-left: 2px;
+}
+
+/* Vars */
+.excalidraw {
+  --color-primary: var(--interactive-accent) !important;
+  --color-primary-darker: #f783ac;
+  --color-primary-darkest: #e64980;
+  --color-primary-light: #fcc2d7;
+  --color-primary-chubb: #faa2c1;
+  --theme-filter: none;
+}
+
+.excalidraw.theme--dark{
+  --theme-filter:unset;
+  --icon-fill-color: unset;
+}
+
+.theme-dark {
+  --theme-filter: invert(93%) hue-rotate(180deg);
+  --icon-fill-color: #ced4da;
+  --caret-color: #fff;
+}
+
+.theme-light {
+  --theme-filter: none;
+  --icon-fill-color: #414244;
+  --caret-color: #000;
+}

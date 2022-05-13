@@ -1,0 +1,106 @@
+{
+  "main": {
+    "id": "a6e361dd042d0ea8",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d8a5a7d7eb534ca",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "欧拉恒等式.md",
+            "mode": "source"
+          }
+        },
+        "group": "565fb7e63b939321"
+      },
+      {
+        "id": "8a2b4aacbf0a45d3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "欧拉恒等式.md",
+            "mode": "preview"
+          }
+        },
+        "group": "565fb7e63b939321"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "10742ee8eb52d5bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "5962b6bb3ad0398c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76d8f7fef937cbc9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "80016c7d83106a96",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "714466965dea73e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a743367b14d5922",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ad1aac03fb36b60",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "欧拉恒等式.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6d8a5a7d7eb534ca",
+  "lastOpenFiles": [
+    "欧拉恒等式.md"
+  ]
+}
