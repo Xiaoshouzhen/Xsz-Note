@@ -7,12 +7,8 @@
         "id": "bf597020bc2309a9",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "知识图谱之基本搭建.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         },
         "group": "2e53547baa30d5bb"
       },
@@ -22,9 +18,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "知识图谱之基本搭建.md",
+            "file": "知识图谱之自然语言处理.md",
             "mode": "preview",
-            "source": false
+            "source": true
           }
         },
         "group": "2e53547baa30d5bb"
@@ -83,7 +79,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识图谱之基本搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +98,7 @@
   },
   "active": "bf597020bc2309a9",
   "lastOpenFiles": [
+    "知识图谱之自然语言处理.md",
     "知识图谱之基本搭建.md",
     "知识图谱之本体论.md"
   ]
