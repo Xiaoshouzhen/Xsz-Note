@@ -1,0 +1,9 @@
+{
+  "citationExportFormat": "biblatex",
+  "literatureNoteTitleTemplate": "@{{citekey}}",
+  "literatureNoteFolder": "./ReadNotes",
+  "literatureNoteContentTemplate": "---\nType: {{entry.type}}\nAuthors: {{authorString}}\nYear: {{year}}\nTitle: {{title}}\nJournal: {{containerTitle}}\nPages: {{page}}\nDOI: {{DOI}}\nPublisher: {{publisher}}\nPlace: {{publisherPlace}}\n---\n\n# {{title}}-({{year}})\n### {{authorString}}\n[==*Read it now! See in Zotero*==]({{zoteroSelectURI}})\n**Web:** [Open online]({{URL}})\n**Citekey:** {{citekey}}\n**Tags:** {{entry.data.fields.keywords}}\n\n## Abstract\n{{abstract}}\n\n## Notes\n{{note}}\n\n## Summary\n\n  \n## Research Objective(s)\n\n\n## Background / Problem Statement\n\n\n## Method(s)\n\n\n## Evaluation\n\n\n## Conclusion\n\n\n## Notes\n\n\n## References",
+  "markdownCitationTemplate": "[@{{citekey}}]",
+  "alternativeMarkdownCitationTemplate": "@{{citekey}}",
+  "citationExportPath": "E:\\Obsidian\\Xsz-Note\\文献阅读\\DeepLearn&Mater.bib"
+}

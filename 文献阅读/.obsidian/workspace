@@ -1,0 +1,120 @@
+{
+  "main": {
+    "id": "2b8ec447b374d732",
+    "type": "split",
+    "children": [
+      {
+        "id": "12a674c37b0d70bc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "ReadNotes/@2020-Huang-Database-SD.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "20eebea757a01931",
+    "type": "split",
+    "children": [
+      {
+        "id": "7bdc503f8f9800d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd595941810a3f6b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a46e76facae27ddb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "2e73e143390a6b08",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e746fdd8b02f4ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08d7e7c35e4ee22d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ReadNotes/@2020-Huang-Database-SD.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "691893baeeb06c6b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ReadNotes/@2020-Huang-Database-SD.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "716ee6414abed61c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "12a674c37b0d70bc",
+  "lastOpenFiles": [
+    "ReadNotes/@2020-Huang-Database-SD.md",
+    "ReadNotes/@2020-Court-Magnetic-nCM.md",
+    "ReadNotes/@hanDeepLearningEnabledFastOptical.md",
+    "@hanDeepLearningEnabledFastOptical.md"
+  ]
+}
