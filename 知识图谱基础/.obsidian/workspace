@@ -4,32 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "3be72f41e7dcb4bb",
+        "id": "c1cdca2828619fce",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "知识图谱之基本搭建.md",
+            "file": "材料知识图谱搭建.md",
             "mode": "source",
             "backlinks": true,
             "source": true
           }
         },
-        "group": "600bbaa36f86559e"
+        "group": "68dff26bb7322440"
       },
       {
-        "id": "e68bee2f4893a468",
+        "id": "fce456d79ecc7c2a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "知识图谱之基本搭建.md",
+            "file": "材料知识图谱搭建.md",
             "mode": "preview",
             "backlinks": true,
             "source": true
           }
         },
-        "group": "600bbaa36f86559e"
+        "group": "68dff26bb7322440"
       }
     ],
     "direction": "vertical"
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "48d59d81ddafbb32",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识图谱之基本搭建.md",
+                "file": "材料知识图谱搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识图谱之基本搭建.md",
+                "file": "材料知识图谱搭建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,8 +116,9 @@
     "width": 170,
     "collapsed": true
   },
-  "active": "3be72f41e7dcb4bb",
+  "active": "c1cdca2828619fce",
   "lastOpenFiles": [
+    "材料知识图谱搭建.md",
     "知识图谱之基本搭建.md",
     "知识图谱之本体论.md",
     "材料数据模型.md",

@@ -1,5 +1,7 @@
 [
   "obsidian-emoji-toolbar",
   "cm-editor-syntax-highlight-obsidian",
-  "markdown-prettifier"
+  "markdown-prettifier",
+  "obsidian-minimal-settings",
+  "obsidian-style-settings"
 ]

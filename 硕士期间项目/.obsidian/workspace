@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "535c8bd7460b4692",
+    "type": "split",
+    "children": [
+      {
+        "id": "654466e6968c7b79",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "LNTU-MGE整合/LNTU-MGE技术选型.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ee0853c99041e6bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "af10dbb5f174a821",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9244d517b4c5192b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "19dbc4238b49ca8b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "393c41ee5502c11b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7d80ee27f7ed5bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fedb8495c3dd935",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "LNTU-MGE整合/LNTU-MGE技术选型.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d5c4f3a2f9bba754",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "654466e6968c7b79",
+  "lastOpenFiles": [
+    "LNTU-MGE整合/LNTU-MGE技术选型.md"
+  ]
+}

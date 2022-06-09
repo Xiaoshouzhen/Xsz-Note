@@ -2,5 +2,7 @@
   "templater-obsidian",
   "quickadd",
   "obsidian-advanced-uri",
-  "obsidian-citation-plugin"
+  "obsidian-citation-plugin",
+  "obsidian-style-settings",
+  "obsidian-minimal-settings"
 ]
